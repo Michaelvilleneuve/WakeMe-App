@@ -1,11 +1,12 @@
 <resources>
-    <color name="background_purple">#e67e22</color>
+    <color name="background_purple">#f39c12</color>
     <color name="light_gray">#bbbbbb</color>
     <color name="apptheme_color">#f39c12</color>
     <color name="light_purple_button">#e67e22</color>
     <color name="pressed_purple_button">#d35400</color>
     <color name="focused_purple_button">#d35400</color>
     <color name="text_color">#34495e</color>
+    <color name="white_color">#ffffff</color>
     <color name="light_purple_background">#ecf0f1</color>
     <color name="swipeRefresh1">#4fc1e9</color>
     <color name="swipeRefresh2">#2da4ce</color>

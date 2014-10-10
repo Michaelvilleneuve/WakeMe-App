@@ -2,13 +2,26 @@
     xmlns:tools="http://schemas.android.com/tools"
 	xmlns:ads="http://schemas.android.com/apk/res-auto"
     style="@style/AuthBackground"
+    android:background="@color/background_purple"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity" >
 
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:contentDescription="Logo"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="20dp"
+         android:layout_marginBottom="40dp"
+         android:src="@drawable/ic_launcher" />
+    
     <TextView
         android:id="@+id/title"
         style="@style/AuthTitle"
+        android:paddingTop="100dp"
         android:textSize="45sp" />
 
     <TextView
@@ -37,6 +50,7 @@
     <Button
         android:id="@+id/loginButton"
         style="@style/AuthButton"
+        android:textColor="@color/white_color"
         android:text="@string/login_button_label"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/editTextLayout" />
@@ -69,5 +83,7 @@
         android:layout_alignParentLeft="true"
         ads:adSize="BANNER"
         ads:adUnitId="@string/ad_unit_ids"/>
+
+   
    
 </RelativeLayout>

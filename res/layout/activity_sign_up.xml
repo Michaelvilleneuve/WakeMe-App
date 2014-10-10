@@ -2,15 +2,27 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/AuthBackground"
+      android:background="@color/background_purple"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUpActivity" >
 
     
-
+ <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:contentDescription="Logo"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="15dp"
+         android:layout_marginBottom="20dp"
+         android:src="@drawable/ic_launcher" />
     <TextView
         android:id="@+id/title"
-        style="@style/AuthTitle" />
+        style="@style/AuthTitle"
+        android:paddingTop="80dp"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/subtitle"
@@ -83,6 +95,7 @@
 		style="@style/AuthButton"
         android:text="@string/sign_up_button_label"
         android:layout_alignParentLeft="true"
+         android:textColor="@color/white_color"
         android:layout_below="@+id/editTextLayout"
         android:layout_toLeftOf="@id/buttonDivider"
         android:layout_marginRight="0dp" />
@@ -90,6 +103,7 @@
     <Button
         android:id="@+id/cancelButton"
 		style="@style/AuthButton"
+		 android:textColor="@color/white_color"
         android:text="@string/cancel_button_label"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/editTextLayout"

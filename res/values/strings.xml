@@ -83,6 +83,7 @@
     <string name="update_profile">Update Profile !</string>    
     <string name="rest_password">Rest Password !</string>    
     <string name="back_to_login">Back to Login !</string>
+    <color name="white">#FFFFFF</color>
     
     
     

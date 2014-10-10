@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- If you want the image to be Self Destroy Snap Chat like 
+    you need to set this to True -->
+    <bool name="self_destroy">false</bool>
+	
+	
+	<!-- After How long the image should be Self Destroyded 
+	IF you set the self destroy to true
+	Enter the number in Seconds -->
+	<integer name="time_to_destroy">10</integer>    
+	
+	<string name="parse_app_id">qv8orkTId6QrmLdYUfodreKd08apK24u6zAkfdP0</string>    
+	<string name="parse_client_key">qFFKufVNwWwykx1f3J3fMgXpcU1RCDOagT80HRW7</string>    
+	
+	<!-- AdMob Unit Id -->
+    <string name="ad_unit_ids">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</string>
+	
+    <!-- Here you will chose where to show ads 
+    it's true or false
+    
+    if you want the ads to be shown on the page you just enter a true
+    if you DON'T want the ads to be shown on any page just enter false
+    
+    as you will see on the next section  -->
+    
+    <!-- Ads On Login Page -->
+    <bool name="adLogin">false</bool>
+    <!-- Ads On Signup Page -->
+    <bool name="adSignup">false</bool>
+    <!-- Ads on Edit Friends Page -->
+    <bool name="adEditFriends">false</bool>
+    <!-- Ads on Forget Password Page -->
+    <bool name="adForgetPassword">false</bool>
+    <!-- Ads on Friends List Page -->
+    <bool name="adFriends">false</bool>
+    <!-- Ads on Inbox Page -->
+    <bool name="adInbox">false</bool>
+    <!-- Ads on Profile Page -->
+    <bool name="adProfile">false</bool>
+    <!-- Ads on Chose to who send message page -->
+    <bool name="adRecipients">false</bool>
+    <!-- Ads on View Profile Page -->
+    <bool name="adViewProfile">false</bool>
+    <!-- Ads on View Image Page -->
+    <bool name="adViewImage">false</bool>
+    
+</resources>

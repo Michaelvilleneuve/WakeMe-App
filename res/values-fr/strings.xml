@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">WakeMe App</string>
+    <string name="title_section1">Alarmes</string>
+    <string name="title_section2">Amis</string>
+    <string name="title_activity_login">Se Connecter</string>
+    <string name="username_hint">Utilisateur</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="login_button_label">SE CONNECTER</string>
+    <string name="sign_up_text">Pas de compte ? Inscris-toi</string>
+    <string name="title_activity_sign_up">S\'inscrire</string>
+    <string name="email_hint">E-mail</string>
+    <string name="sign_up_button_label">S\'inscrire</string>
+    <string name="signup_error_message">Merci de remplir le champ utilisateur, mot de passe et e-mail.</string>
+    <string name="signup_error_title">Erreur !</string>
+    <string name="login_error_message">Merci de rentrer un mot de passe et un nom d\'utilisateur</string>
+    <string name="login_error_title">Erreur !</string>
+    <string name="menu_logout_label">Déconnexion</string>
+    <string name="empty_inbox_label">Pas de nouvelles alarmes</string>
+    <string name="empty_friends_label">Vous n\'avez pas encore d\'amis, recherchez-en.</string>
+    <string name="menu_edit_friends_label">Ajouter/modifier Amis</string>
+    <string name="title_activity_edit_friends">Modifier mes amis</string>
+    <string name="error_tit">Désolé</string>
+    <string name="menu_camera_label">Camera</string>
+    <string name="error_external_storage">Impossible d\'accéder au contenu de votre téléphone.</string>
+    <string name="general_error">Désolé, il y a eu un problème.</string>
+    <string name="video_size_limit_warning">Le fichier doit être inférieur à 10 mb.</string>
+    <string name="error_selecting_file">Il y a un problème avec ce fichier.</string>
+    <string name="error_file_too_large">Ce fichier est trop large ! </string>
+	<string name="radio_male">Homme</string>
+    <string name="radio_female">Femme</string>
+    <string-array name="camera_choices">
+        <item>Envoyer Alarme</item>
+        <item>Send Message</item>
+        <item>Choisir alarme</item>
+        <item>Choisir vidéo</item>
+    </string-array>
+
+    <string name="video_file_size_warning">La vidéo doit être inférieure à 10mb.</string>
+    <string name="error_opening_file">Il y a un problème avec ce fichier.</string>
+    <string name="error_file_size_too_large">Ce fichier est trop grand.</string>
+    <string name="title_activity_recipients">Choisis destinataire</string>
+    <string name="empty_recipients_list_message">Choisis un amis!</string>
+    <string name="menu_send_label">Envoyer</string>
+    <string name="error_selecting_file_title">Nous sommes désolés.</string>
+    <string name="success_message">Alarme envoyée!</string>
+    <string name="error_sending_message">Il y a eu une erreur durant l\'envoi du message.</string>
+    <string name="title_activity_view_image">Alarme</string>
+    <string name="content_desc_background">Fond d\'écran</string>
+    <string name="subtitle">Réveille tes amis, comme tu le souhaites</string>
+    <string name="cancel_button_label">ANNULER</string>
+    <string name="content_desc_button_divider">Button divider</string>
+    <string name="content_desc_message_icon">Message icon</string>
+    <string name="content_desc_user_avatar">Avatar</string>
+    <string name="content_desc_user_checkmark">User checkmark</string>
+    <string name="push_message">Tu as reçu une alarme de la part de %s!</string>
+    <string name="search_friend_hint">Chercher un amis !</string>
+    <string name="search_button">Rechercher !</string>
+    <string name="user_ptofile_avatar">Avatar</string>
+    <string name="save_changes_profile">Sauvegarder !</string>
+    <string name="your_full_name">Ton nom !</string>
+    <string name="your_home_town">Ta ville</string>    
+    <string name="image_view">Image View</string>    
+    <string name="no_internet_connection">Ton portable n\'est pas connecté à internet !</string>    
+    <string name="friend_profile">Profil de ton ami</string>    
+    <string name="empty_search">Entre le nom de ton pote</string>    
+    <string name="male">Homme</string>    
+    <string name="female">Femme</string>    
+    <string name="empty_email_rest">Entre l\'email utilisé lors de ton inscription.</string>    
+    <string name="success_rest_message">Vérifies tes mails pour pouvoir réinitialiser ton mot de passe.</string>    
+    <string name="email_sent">Email envoyé ! </string>    
+    <string name="empty_username">Choisis un pseudo !</string>    
+    <string name="empty_full_name">Entre ton nom !</string>    
+    <string name="empty_password">Entre ton mdp !</string>    
+    <string name="empty_email_address">Merci d\'entrer un mail valide </string>    
+    <string name="empty_gender">Choisis ton genre !</string>    
+    <string name="menu_profile_label">Ton profil</string>    
+    <string name="profile_update_success">Mis à jour réussie !</string>    
+    <string name="success_update">Mise à jour réussie !</string>    
+    <string name="Image_upload_success">Ton image a bien été changée !</string>    
+    <string name="forget_passsword_label">Oublié ton mot de passe ?</string>    
+    <string name="update_profile">Mettre à jour !</string>    
+    <string name="rest_password">Réinitialiser mot de passe !</string>    
+    <string name="back_to_login">Retourner à la page de connexion !</string>
+    
+    
+    
+    
+    
+    
+    
+</resources>

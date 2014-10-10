@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ProfilePicture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/avatar_empty" />
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        style="@style/AuthFieldContainer"
+        android:layout_marginTop="110dp" >
+        
+        <EditText
+            android:id="@+id/fullnameField"
+			style="@style/AuthEditText"
+            android:hint="@string/your_full_name" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/passwordField"
+			style="@style/AuthEditText"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/emailField"
+			style="@style/AuthEditText"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress" />
+        
+        <EditText
+            android:id="@+id/hometownField"
+			style="@style/AuthEditText"
+            android:hint="@string/your_home_town" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/updateProfile"
+		style="@style/AuthButton"
+        android:text="@string/update_profile"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextLayout" />
+    
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/ad_unit_ids"/>
+
+</RelativeLayout>

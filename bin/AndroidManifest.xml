@@ -3,7 +3,6 @@
     package="fr.michaelvilleneuve.wakemeapp"
     android:versionCode="2"
     android:versionName="2.0" >
-
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
@@ -12,11 +11,12 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -100,11 +100,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.twaa9l.photosend.MainActivity" />
         </activity>
-        
-         <meta-data android:name="com.google.android.gms.version"
-              	   android:value="@integer/google_play_services_version"/>
-		<activity android:name="com.google.android.gms.ads.AdActivity"
-         		  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity
             android:name="com.twaa9l.photosend.ui.ProfileActivity"
             android:label="@string/title_activity_view_image"
@@ -133,6 +136,15 @@
                 <category android:name="com.twaa9l.photosend" />
             </intent-filter>
         </receiver>
+
+        <activity
+            android:name=".Recordaudio"
+            android:label="@string/title_activity_recordaudio"
+            android:parentActivityName="com.twaa9l.photosend.ui.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.twaa9l.photosend.ui.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

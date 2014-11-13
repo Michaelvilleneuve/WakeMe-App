@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <!-- If you want the image to be Self Destroy Snap Chat like 
-    you need to set this to True -->
-    <bool name="self_destroy">false</bool>
+    <!-- auto destruction -->
+    <bool name="self_destroy">true</bool>
 	
 	
-	<!-- After How long the image should be Self Destroyded 
-	IF you set the self destroy to true
-	Enter the number in Seconds -->
+	<!-- délai -->
 	<integer name="time_to_destroy">10</integer>    
 	
 	<string name="parse_app_id">qv8orkTId6QrmLdYUfodreKd08apK24u6zAkfdP0</string>    

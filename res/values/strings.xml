@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
+
     <string name="app_name">WakeMe App</string>
     <string name="title_section1">Alarms</string>
     <string name="title_section2">Friends</string>
@@ -28,8 +28,9 @@
     <string name="video_size_limit_warning">The selected video must be less than 10 MB.</string>
     <string name="error_selecting_file">There was an error with the file selected. Please select a different file.</string>
     <string name="error_file_too_large">The selected file is too large! Select a new file.</string>
-	<string name="radio_male">Male</string>
+    <string name="radio_male">Male</string>
     <string name="radio_female">Female</string>
+
     <string-array name="camera_choices">
         <item>Send Alarm</item>
         <item>Send Message</item>
@@ -60,35 +61,34 @@
     <string name="user_ptofile_avatar">User Avatar</string>
     <string name="save_changes_profile">Save Changes !</string>
     <string name="your_full_name">Your Full Name !</string>
-    <string name="your_home_town">Your Home Town</string>    
-    <string name="image_view">Image View</string>    
-    <string name="no_internet_connection">Sorry, Couldn\'t find any internet connection, Please make sure you have and internet connection.</string>    
-    <string name="friend_profile">Friend Profile</string>    
-    <string name="empty_search">Please Enter the Username you want to search for</string>    
-    <string name="male">Male</string>    
-    <string name="female">Female</string>    
-    <string name="empty_email_rest">Please Enter Your Email Address, You Used When You Signed Up !</string>    
-    <string name="success_rest_message">Check Your Email For Password ReSetting Instruction</string>    
-    <string name="email_sent">Email Sent!</string>    
-    <string name="empty_username">Please Chose a Username !</string>    
-    <string name="empty_full_name">Please Enter Your Full Name !</string>    
-    <string name="empty_password">Please Enter a Password</string>    
-    <string name="empty_email_address">Please Enter a Valid Email Address</string>    
-    <string name="empty_gender">Please Chose Your Gender !</string>    
-    <string name="menu_profile_label">Your Profile</string>    
-    <string name="profile_update_success">Profile Informations Updates Successfully !</string>    
-    <string name="success_update">Success Update !</string>    
-    <string name="Image_upload_success">Your Image Changed Successfully !</string>    
-    <string name="forget_passsword_label">Forget Your Password ?</string>    
-    <string name="update_profile">Update Profile !</string>    
-    <string name="rest_password">Rest Password !</string>    
+    <string name="your_home_town">Your Home Town</string>
+    <string name="image_view">Image View</string>
+    <string name="no_internet_connection">Sorry, Couldn\'t find any internet connection, Please make sure you have and internet connection.</string>
+    <string name="friend_profile">Friend Profile</string>
+    <string name="empty_search">Please Enter the Username you want to search for</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="empty_email_rest">Please Enter Your Email Address, You Used When You Signed Up !</string>
+    <string name="success_rest_message">Check Your Email For Password ReSetting Instruction</string>
+    <string name="email_sent">Email Sent!</string>
+    <string name="empty_username">Please Chose a Username !</string>
+    <string name="empty_full_name">Please Enter Your Full Name !</string>
+    <string name="empty_password">Please Enter a Password</string>
+    <string name="empty_email_address">Please Enter a Valid Email Address</string>
+    <string name="empty_gender">Please Chose Your Gender !</string>
+    <string name="menu_profile_label">Your Profile</string>
+    <string name="profile_update_success">Profile Informations Updates Successfully !</string>
+    <string name="success_update">Success Update !</string>
+    <string name="Image_upload_success">Your Image Changed Successfully !</string>
+    <string name="forget_passsword_label">Forget Your Password ?</string>
+    <string name="update_profile">Update Profile !</string>
+    <string name="rest_password">Rest Password !</string>
     <string name="back_to_login">Back to Login !</string>
+
     <color name="white">#FFFFFF</color>
-    
-    
-    
-    
-    
-    
-    
+
+    <string name="title_activity_recordaudio">Recordaudio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
 </resources>

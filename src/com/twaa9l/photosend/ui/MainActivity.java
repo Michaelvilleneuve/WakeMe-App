@@ -32,9 +32,11 @@ import android.widget.Toast;
 
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
-import fr.michaelvilleneuve.wakemeapp.R;
 import com.twaa9l.photosend.adapters.SectionsPagerAdapter;
 import com.twaa9l.photosend.utils.ParseConstants;
+
+import fr.michaelvilleneuve.wakemeapp.R;
+
 
 public class MainActivity extends FragmentActivity implements
 		ActionBar.TabListener {
@@ -50,6 +52,8 @@ public class MainActivity extends FragmentActivity implements
 	public static final int MEDIA_TYPE_VIDEO = 5;
 	
 	public static final int FILE_SIZE_LIMIT = 1024*1024*10; // 10 MB
+
+	protected static final int REQUESTCODE_RECORDING = 0;
 	
 	protected Uri mMediaUri;
 	
@@ -71,11 +75,11 @@ public class MainActivity extends FragmentActivity implements
 						startActivityForResult(takePhotoIntent, TAKE_PHOTO_REQUEST);
 					}
 					break;
-				case 1: // Take video
-					Intent videoIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+				case 1: // video
+					 Intent videoIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
 					mMediaUri = getOutputMediaFileUri(MEDIA_TYPE_VIDEO);
 					if (mMediaUri == null) {
-						// display an error
+						// si erreur
 						Toast.makeText(MainActivity.this, R.string.error_external_storage,
 								Toast.LENGTH_LONG).show();
 					}
@@ -86,18 +90,28 @@ public class MainActivity extends FragmentActivity implements
 						startActivityForResult(videoIntent, TAKE_VIDEO_REQUEST);
 					}
 					break;
-				case 2: // Choose picture
+					// Prendre de l'audio, avec des bugs
+					/* case 2:
+						 Intent audioIntent = new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION);
+						 startActivityForResult(audioIntent, PICK_AUDIO_REQUEST);
+					break; */
+				case 3: // Choose picture
 					Intent choosePhotoIntent = new Intent(Intent.ACTION_GET_CONTENT);
 					choosePhotoIntent.setType("image/*");
 					startActivityForResult(choosePhotoIntent, PICK_PHOTO_REQUEST);
 					break;
-				case 3: // Choose video
+				case 4: // Choose video
 					Intent chooseVideoIntent = new Intent(Intent.ACTION_GET_CONTENT);
 					chooseVideoIntent.setType("video/*");
 					Toast.makeText(MainActivity.this, R.string.video_file_size_warning, Toast.LENGTH_LONG).show();
 					startActivityForResult(chooseVideoIntent, PICK_VIDEO_REQUEST);
 					break;
 			}
+		}
+
+		private boolean isAvailable(Context applicationContext, Intent intent) {
+			// TODO Auto-generated method stub
+			return false;
 		}
 
 		private Uri getOutputMediaFileUri(int mediaType) {
@@ -431,4 +445,7 @@ public class MainActivity extends FragmentActivity implements
 	public void onTabReselected(ActionBar.Tab tab,
 			FragmentTransaction fragmentTransaction) {
 	}
+	
+
 }
+

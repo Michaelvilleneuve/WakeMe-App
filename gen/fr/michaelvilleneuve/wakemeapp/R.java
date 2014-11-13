@@ -367,8 +367,7 @@ containing a value of this type.
         /**  Ads on View Profile Page 
          */
         public static final int adViewProfile=0x7f0a0009;
-        /**  If you want the image to be Self Destroy Snap Chat like 
-    you need to set this to True 
+        /**  auto destruction 
          */
         public static final int self_destroy=0x7f0a0000;
     }
@@ -424,6 +423,11 @@ containing a value of this type.
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
+
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    
 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
@@ -546,77 +550,84 @@ containing a value of this type.
     }
     public static final class id {
         public static final int ForgetText=0x7f07001c;
-        public static final int HomeTown=0x7f070031;
+        public static final int HomeTown=0x7f070039;
         public static final int ProfilePicture=0x7f070020;
-        public static final int action_camera=0x7f07003f;
-        public static final int action_edit_friends=0x7f07003d;
-        public static final int action_logout=0x7f07003e;
-        public static final int action_profile=0x7f070040;
-        public static final int action_send=0x7f070041;
+        public static final int action_camera=0x7f070047;
+        public static final int action_edit_friends=0x7f070045;
+        public static final int action_logout=0x7f070046;
+        public static final int action_profile=0x7f070048;
+        public static final int action_send=0x7f070049;
+        public static final int action_settings=0x7f07004a;
         public static final int adView=0x7f07001d;
         public static final int backgroundImage=0x7f07001e;
         public static final int book_now=0x7f070010;
-        public static final int buttonDivider=0x7f07002a;
+        public static final int buttonDivider=0x7f070032;
         public static final int buyButton=0x7f07000a;
         public static final int buy_now=0x7f07000f;
         public static final int buy_with_google=0x7f07000e;
-        public static final int cancelButton=0x7f07002c;
-        public static final int checkImageView=0x7f07003b;
+        public static final int cancelButton=0x7f070034;
+        public static final int checkImageView=0x7f070043;
         public static final int classic=0x7f070011;
-        public static final int defaultAvatar=0x7f07002e;
+        public static final int defaultAvatar=0x7f070036;
         public static final int editTextLayout=0x7f070017;
         public static final int emailField=0x7f070022;
-        public static final int friendsGrid=0x7f070037;
-        public static final int fullName=0x7f070030;
+        public static final int friendsGrid=0x7f07003f;
+        public static final int fullName=0x7f070038;
         public static final int fullnameField=0x7f070021;
         public static final int grayscale=0x7f070012;
         public static final int holo_dark=0x7f070005;
         public static final int holo_light=0x7f070006;
         public static final int hometownField=0x7f070023;
         public static final int hybrid=0x7f070004;
-        public static final int imageView=0x7f07002d;
+        public static final int imageView=0x7f070035;
         public static final int imageView1=0x7f070014;
-        public static final int login=0x7f070026;
+        public static final int linear1=0x7f070027;
+        public static final int linear2=0x7f07002a;
+        public static final int login=0x7f07002e;
         public static final int loginButton=0x7f07001a;
         public static final int match_parent=0x7f07000c;
-        public static final int messageIcon=0x7f070034;
+        public static final int messageIcon=0x7f07003c;
+        public static final int micImage=0x7f070026;
         public static final int monochrome=0x7f070013;
-        public static final int nameLabel=0x7f07003c;
+        public static final int nameLabel=0x7f070044;
         public static final int none=0x7f070000;
         public static final int normal=0x7f070001;
         public static final int pager=0x7f07001f;
         public static final int passwordField=0x7f070019;
+        public static final int play=0x7f07002b;
         public static final int production=0x7f070007;
-        public static final int radio_female=0x7f070029;
-        public static final int radio_male=0x7f070028;
-        public static final int resetPassword=0x7f070025;
+        public static final int radio_female=0x7f070031;
+        public static final int radio_male=0x7f070030;
+        public static final int resetPassword=0x7f07002d;
         public static final int sandbox=0x7f070008;
         public static final int satellite=0x7f070002;
-        public static final int searchButton=0x7f070038;
-        public static final int searchFriend=0x7f070039;
-        public static final int section_label=0x7f070033;
+        public static final int searchButton=0x7f070040;
+        public static final int searchFriend=0x7f070041;
+        public static final int section_label=0x7f07003b;
         public static final int selectionDetails=0x7f07000b;
-        public static final int senderLabel=0x7f070035;
-        public static final int sex=0x7f070027;
+        public static final int senderLabel=0x7f07003d;
+        public static final int sex=0x7f07002f;
         public static final int signUpText=0x7f07001b;
-        public static final int signupButton=0x7f07002b;
+        public static final int signupButton=0x7f070033;
+        public static final int start=0x7f070028;
+        public static final int stop=0x7f070029;
+        public static final int stopPlay=0x7f07002c;
         public static final int strict_sandbox=0x7f070009;
         public static final int subtitle=0x7f070016;
-        public static final int swipeRefreshLayout=0x7f070032;
+        public static final int swipeRefreshLayout=0x7f07003a;
         public static final int terrain=0x7f070003;
-        public static final int timeLabel=0x7f070036;
+        public static final int text1=0x7f070025;
+        public static final int timeLabel=0x7f07003e;
         public static final int title=0x7f070015;
         public static final int updateProfile=0x7f070024;
-        public static final int userImageView=0x7f07003a;
-        public static final int userName=0x7f07002f;
+        public static final int userImageView=0x7f070042;
+        public static final int userName=0x7f070037;
         public static final int usernameField=0x7f070018;
         public static final int wrap_content=0x7f07000d;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f080000;
-        /**  After How long the image should be Self Destroyded 
-	IF you set the self destroy to true
-	Enter the number in Seconds 
+        /**  délai 
          */
         public static final int time_to_destroy=0x7f080001;
     }
@@ -624,25 +635,28 @@ containing a value of this type.
         public static final int activity_login=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_profile=0x7f030002;
-        public static final int activity_rest_password=0x7f030003;
-        public static final int activity_sign_up=0x7f030004;
-        public static final int activity_view_image=0x7f030005;
-        public static final int activity_view_profile=0x7f030006;
-        public static final int auth_common=0x7f030007;
-        public static final int fragment_inbox=0x7f030008;
-        public static final int fragment_main_dummy=0x7f030009;
-        public static final int message_item=0x7f03000a;
-        public static final int user_grid=0x7f03000b;
-        public static final int user_grid2=0x7f03000c;
-        public static final int user_item=0x7f03000d;
+        public static final int activity_recordaudio=0x7f030003;
+        public static final int activity_rest_password=0x7f030004;
+        public static final int activity_sign_up=0x7f030005;
+        public static final int activity_view_image=0x7f030006;
+        public static final int activity_view_profile=0x7f030007;
+        public static final int auth_common=0x7f030008;
+        public static final int fragment_inbox=0x7f030009;
+        public static final int fragment_main_dummy=0x7f03000a;
+        public static final int message_item=0x7f03000b;
+        public static final int user_grid=0x7f03000c;
+        public static final int user_grid2=0x7f03000d;
+        public static final int user_item=0x7f03000e;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
         public static final int recipients=0x7f0c0001;
+        public static final int recordaudio=0x7f0c0002;
     }
     public static final class string {
         public static final int Image_upload_success=0x7f05006c;
         public static final int accept=0x7f050002;
+        public static final int action_settings=0x7f050073;
         /**  AdMob Unit Id 
          */
         public static final int ad_unit_ids=0x7f050025;
@@ -775,12 +789,13 @@ containing a value of this type.
         public static final int error_selecting_file=0x7f05003f;
         public static final int error_selecting_file_title=0x7f050049;
         public static final int error_sending_message=0x7f05004b;
-        public static final int error_tit=0x7f050071;
+        public static final int error_tit=0x7f050074;
         public static final int error_title=0x7f05003a;
         public static final int female=0x7f050060;
         public static final int forget_passsword_label=0x7f05006d;
         public static final int friend_profile=0x7f05005d;
         public static final int general_error=0x7f05003d;
+        public static final int hello_world=0x7f050072;
         public static final int image_view=0x7f05005b;
         public static final int login_button_label=0x7f05002c;
         public static final int login_error_message=0x7f050033;
@@ -816,6 +831,7 @@ containing a value of this type.
         public static final int title_activity_edit_friends=0x7f050039;
         public static final int title_activity_login=0x7f050029;
         public static final int title_activity_recipients=0x7f050046;
+        public static final int title_activity_recordaudio=0x7f050071;
         public static final int title_activity_sign_up=0x7f05002e;
         public static final int title_activity_view_image=0x7f05004c;
         public static final int title_section1=0x7f050027;

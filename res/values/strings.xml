@@ -35,7 +35,7 @@
         <item>Send Alarm</item>
         <item>Send Message</item>
         <item>Choose alarm</item>
-        <item>Choose Video</item>
+        <item>Send audio</item>
     </string-array>
 
     <string name="video_file_size_warning">The selected video must be less than 10 MB.</string>
@@ -90,5 +90,6 @@
     <string name="title_activity_recordaudio">Recordaudio</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_audio">Audio</string>
 
 </resources>

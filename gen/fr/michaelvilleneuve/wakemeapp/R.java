@@ -552,12 +552,12 @@ containing a value of this type.
         public static final int ForgetText=0x7f07001c;
         public static final int HomeTown=0x7f070039;
         public static final int ProfilePicture=0x7f070020;
-        public static final int action_camera=0x7f070047;
-        public static final int action_edit_friends=0x7f070045;
-        public static final int action_logout=0x7f070046;
-        public static final int action_profile=0x7f070048;
-        public static final int action_send=0x7f070049;
-        public static final int action_settings=0x7f07004a;
+        public static final int action_camera=0x7f070048;
+        public static final int action_edit_friends=0x7f070046;
+        public static final int action_logout=0x7f070047;
+        public static final int action_profile=0x7f070049;
+        public static final int action_send=0x7f07004a;
+        public static final int action_settings=0x7f070045;
         public static final int adView=0x7f07001d;
         public static final int backgroundImage=0x7f07001e;
         public static final int book_now=0x7f070010;
@@ -632,26 +632,28 @@ containing a value of this type.
         public static final int time_to_destroy=0x7f080001;
     }
     public static final class layout {
-        public static final int activity_login=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int activity_profile=0x7f030002;
-        public static final int activity_recordaudio=0x7f030003;
-        public static final int activity_rest_password=0x7f030004;
-        public static final int activity_sign_up=0x7f030005;
-        public static final int activity_view_image=0x7f030006;
-        public static final int activity_view_profile=0x7f030007;
-        public static final int auth_common=0x7f030008;
-        public static final int fragment_inbox=0x7f030009;
-        public static final int fragment_main_dummy=0x7f03000a;
-        public static final int message_item=0x7f03000b;
-        public static final int user_grid=0x7f03000c;
-        public static final int user_grid2=0x7f03000d;
-        public static final int user_item=0x7f03000e;
+        public static final int activity_audio=0x7f030000;
+        public static final int activity_login=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int activity_profile=0x7f030003;
+        public static final int activity_recordaudio=0x7f030004;
+        public static final int activity_rest_password=0x7f030005;
+        public static final int activity_sign_up=0x7f030006;
+        public static final int activity_view_image=0x7f030007;
+        public static final int activity_view_profile=0x7f030008;
+        public static final int auth_common=0x7f030009;
+        public static final int fragment_inbox=0x7f03000a;
+        public static final int fragment_main_dummy=0x7f03000b;
+        public static final int message_item=0x7f03000c;
+        public static final int user_grid=0x7f03000d;
+        public static final int user_grid2=0x7f03000e;
+        public static final int user_item=0x7f03000f;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
-        public static final int recipients=0x7f0c0001;
-        public static final int recordaudio=0x7f0c0002;
+        public static final int audio=0x7f0c0000;
+        public static final int main=0x7f0c0001;
+        public static final int recipients=0x7f0c0002;
+        public static final int recordaudio=0x7f0c0003;
     }
     public static final class string {
         public static final int Image_upload_success=0x7f05006c;
@@ -789,7 +791,7 @@ containing a value of this type.
         public static final int error_selecting_file=0x7f05003f;
         public static final int error_selecting_file_title=0x7f050049;
         public static final int error_sending_message=0x7f05004b;
-        public static final int error_tit=0x7f050074;
+        public static final int error_tit=0x7f050075;
         public static final int error_title=0x7f05003a;
         public static final int female=0x7f050060;
         public static final int forget_passsword_label=0x7f05006d;
@@ -828,6 +830,7 @@ containing a value of this type.
         public static final int success_message=0x7f05004a;
         public static final int success_rest_message=0x7f050062;
         public static final int success_update=0x7f05006b;
+        public static final int title_activity_audio=0x7f050074;
         public static final int title_activity_edit_friends=0x7f050039;
         public static final int title_activity_login=0x7f050029;
         public static final int title_activity_recipients=0x7f050046;

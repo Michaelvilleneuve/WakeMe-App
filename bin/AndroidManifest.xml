@@ -3,6 +3,7 @@
     package="fr.michaelvilleneuve.wakemeapp"
     android:versionCode="2"
     android:versionName="2.0" >
+
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
@@ -22,9 +23,6 @@
         android:name="android.hardware.camera"
         android:required="true" />
 
-    <permission
-        android:name="com.twaa9l.photosend.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
 
     <uses-permission android:name="com.twaa9l.photosend.permission.C2D_MESSAGE" />
 
@@ -144,6 +142,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.twaa9l.photosend.ui.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.twaa9l.photosend.ui.Audio"
+            android:label="@string/title_activity_audio" >
         </activity>
     </application>
 

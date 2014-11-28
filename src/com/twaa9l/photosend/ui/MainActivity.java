@@ -96,9 +96,9 @@ public class MainActivity extends FragmentActivity implements
 						 startActivityForResult(audioIntent, PICK_AUDIO_REQUEST);
 					break; */
 				case 3: // Choose picture
-					Intent choosePhotoIntent = new Intent(Intent.ACTION_GET_CONTENT);
-					choosePhotoIntent.setType("image/*");
-					startActivityForResult(choosePhotoIntent, PICK_PHOTO_REQUEST);
+					Intent audio = new Intent(MainActivity.this,
+							Audio.class);
+						startActivity(audio);
 					break;
 				case 4: // Choose video
 					Intent chooseVideoIntent = new Intent(Intent.ACTION_GET_CONTENT);
